@@ -10,7 +10,6 @@ public class DependOnTest3 {
 		WebDriver driver = new ChromeDriver();
 		String baseURl = "https://www.toolsqa.com/";
 		System.out.println( "Launching Google Chrome browser" ); 
-    //driver = new ChromeDriver();
 		driver.get(baseURl);
 		String testTitle = "Free QA Automation Tools For Everyone";
 		String originalTitle = driver.getTitle();
